@@ -1,32 +1,31 @@
-#  Analysis 1a für Elektrotechnik
+#  ElChem - Elektrochemie
 
 
 ## Modul-Info
 
-Semester: HS 2021/2022 \
-Dozent: Prof. Dr. Bernhard Zgraggen
+Semester: FS 2025 \
+Dozent: Mario Graf
 
 
 ## Hilfsmittel für Prüfung
 
-- 4 Seiten Zusammenfassung (A4)
-- Bronstein **ohne inhaltliche Ergänzungen**
+- 2 Seiten Zusammenfassung (A4)
+- Anhang (an der Prüfung beigelegt)
 
 
 ## Hinweise zur Zusammenfassung
 
-Die auf der Zusammenfassung angegebenen Seitenzahlen beziehen sich auf Bronstein.
+Die Quellen und Inhalte sind aus Internet-, Literatur, Forenrecherche, anderen Zusammenfassungen von Studenten an der OST, wie auch anderen und Chatbot Konversationen.
 
 
 ## Updates Zusammenfassung 
 
 Nach abgeschlossener Prüfung wird die Zusammenassung aktualisiert, falls Fehler gefunden werden. \
-Der aktuelle LaTeX-Code und ein kompiliertes PDF werden in diesem Repo hochgeladen. \
-Es wird allerdings keinen neuen Upload auf Google Drive geben. 
+Der aktuelle LaTeX-Code und ein kompiliertes PDF werden in diesem Repo hochgeladen. \ 
 
 ### Fehlerkorrekturen und Verbesserungsvorschläge
 
-Die Korrekturen und Ergänzungen von Februar 2024 basieren auf dem Feedback und den Vorschlägen von Malenka Hossli.
+Die Korrekturen und Ergänzungen sind immer Willkommen.
 
 
 ## Informationen zum Template
