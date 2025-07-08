@@ -12,8 +12,9 @@ Dozent: Mario Graf
 - 2 Seiten Zusammenfassung (A4)
 - Anhang (an der Prüfung beigelegt)
 
-
 ## Hinweise zur Zusammenfassung
+
+Zusätzlich sind Anki Karten zu finden, die mehr in die tiefe des Themas gehen, da die Formelsammlung begrenzt ist.
 
 Die Quellen und Inhalte sind aus Internet-, Literatur, Forenrecherche, anderen Zusammenfassungen von Studenten an der OST, wie auch anderen und Chatbot Konversationen.
 
