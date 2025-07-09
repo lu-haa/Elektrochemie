@@ -1,11 +1,60 @@
-\section{Korrosion}{SW 13 - 14}
+\section{Korrosion}
+\subsubsection{Definition}
+Reaktion eines (metallischen) Werkstoffs mit seiner Umgebung, die zu messbaren Veränderungen des Werkstoffs (Ladung / Oxidation) und zu \textbf{Korrosionsschäden} führen kann. \newline
+Metall reagiert als RM: \ce{Me <--> $Me^{z+}$ + z e-}
+Möglich wenn $\Delta$G $<$ 0 $\&$ v.a. \ce{O2, H2O/H3O+} (OM) vorhanden. \newline
+Spalt = kleine Anode, Passivoxidschicht = grosse Kathode \newline
+Wenn $E_a$ gross $\to$ Reaktionsgeschwindigkeit klein
 
-\subsection{Inhalt}
-\begin{itemize}
-\item Korrosionstypen Metallkorrosion, elektrochemische Korrosion
-\item oxidschichten (passivierung)
-\item Korrosionsarten (Flächenkorrosion, Kontaktkorrosion, Lochfrass)
-\item Belüftungselemente
-\item Passivatoren und Depassivatoren
-\item H2- und O2-Typ Korrosion
-\end{itemize}
+\subsection{Korrosionstypen}
+\small{
+\subsubsection{Elektrochemische Korrosion}
+	Häufigste Korrosionsart, Ox. und Red. \textbf{räumlich getrennt}, wässriger Elektrolyt. \newline
+	$\Rightarrow$ Bildung galvanische Zelle
+
+
+\subsubsection{H2 und O2 Typ Korrosion}
+\begin{tabular}{ll}
+	H2 & OM ist $H^+$, pH abhängig \\
+	\textbf{Beispiel} & \\
+	Sauer: & \ce{2H3O+ + 2 e- <--> H2 + 2H20} \\
+	neut.-Bas.: & \ce{2H2O + 2 e- <--> H2 + 2 OH-} \\
+	& \\
+	O2 & OM ist O2, pH-abhägig, je saurer die Lösung, desto aggressiver korrodiert. \\
+	\textbf{Beispiel} & \ce{O2 + 2H2O + 4e- -> 4OH-} \\
+	& \ce{2Fe + 3/2 O2 + H2O -> 2FeOOH}
+\end{tabular}
+\smallskip
+
+\textbf{Potentialverhältnisse: Bedingung zur Korrosion von H2 und O2} \newline
+$\rightarrow E(M/M^+)$ und $E(OM)$ abhängig \newline
+$\rightarrow \Delta G < 0$  \newline
+$\boxed{E(OM) = E_{H2} = -0.059V \cdot pH ~~ \text{und} ~~ E_{O2}= 1.23 - 0.059V \cdot pH}$ 
+\smallskip \newline
+$\boxed{
+	E_{\ce{Me / Me^{n+}}} = E^\circ_{\ce{Me / Me^{n+}}} + \frac{0.06\,\mathrm{V}}{z} \cdot \lg [\ce{Me^{n+}}]}$
+
+\subsubsection{Eisen (Rost)}
+Korrosion von Eisen-Werkstoffen mit O2 und H2O  OM ist O2, feuchtigkeit abhängig, Ionengehalt verstärken
+
+\subsubsection{Kontaktkorrosion, Bimetallkorrosion}
+Korrosion eines unedleren Metalls, das mit einem edleren Metalle elektrisch und via wässrigem Elektrolyten verbunden ist.
+Reduktion von \ce{O2} an gesamter Oberfläche, Oxidation nur an unedlerem Metall $\rightarrow$ verstärkte Korrosion, Edleres Metall $\rightarrow$ keine Korrosion (kathodisch geschützt) \newline
+ Flächenregel: $\frac{v_k(Zn)}{v_k(Zn + Fe)} = \frac{A(Zn)}{A(Zn + Fe)} = \frac{\text{Anodenfläche}}{\text{Kathodenfläche}}$ \newline 
+$\rightarrow$ Je grösser die Fläche des edleren Metalls, umso schneller korrodiert das unedlere
+
+\subsubsection{gleichmässige Flächenkorrosion}
+Auflösung ist gleichmässig über gesamte Metalloberfläche verteilt. 
+
+\subsubsection{Lochfrass-Korrosion}
+stark lokalisierte Korrosion, Bildung enger, tiefer Löcher – Verhältnis(Durchmesser/Tiefe) < 1, Materialabtrag gering \newline 
+$\rightarrow$ gefährlich, da schwer erkennbar – kann innert kurzer Zeit zur Durchlöcherung führen
+
+\subsubsection{Belüftungselemente}
+Korrosion infolge räumlich variierendem O2-Gehalt im Elektrolyten, können Lochfrasskorrosion bewirken, lokale Depassivierung, inkl. Spaltkorrosion
+
+}
+
+\subsection{Passivatoren und Depassivatoren}
+Passivator bildet an Oberfläche eine schützende Oxidschicht ($E_A$ wird vergrössert) \newline
+Depassivator zerstört schützende Oxidschicht durch $\ce{Cl^-}$ ($E_A$ wird verkleinert)

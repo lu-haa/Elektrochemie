@@ -9,6 +9,7 @@
 \usepackage{multicol}               % provides multicols environment
 \usepackage{geometry}               % set page layout
 
+
 \usepackage{enumitem}               % list customization
 \usepackage{outlines}               % easy nested lists
 \usepackage{tabularx}               % some nicer tables with X columns
@@ -98,7 +99,7 @@
 \setlength{\parindent}{0pt}         % no paragraph indentation
 
 \setcounter{tocdepth}{2}            % only display sections and subsections in toc
-% \setcounter{secnumdepth}{0}       % uncomment to disable section numbering
+\setcounter{secnumdepth}{2}       % uncomment to disable section numbering
 
 \DeclareMathSizes{8}{8}{6}{5}       % set math font sizes for 8pt document
 
@@ -268,7 +269,7 @@
 
 % subsubsection formatting
 \titleformat{\subsubsection}
-            {\large\bfseries}
+            {\normalsize\bfseries}
             {\myul{\thesubsubsection\ }}
             {0mm}
             {\phantomsection{}\myul{#1}}
